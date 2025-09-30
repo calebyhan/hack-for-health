@@ -1,13 +1,24 @@
 # Healthy Eating Helper
 
-Photo → nutrition breakdown → health score
+🍎 Photo → nutrition breakdown → health score
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Next.js](https://img.shields.io/badge/Next.js-15+-black)](https://nextjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue)](https://python.org)
 
 ## Overview
 
-A web app that lets users upload meal photos and instantly see:
-- Detected foods (top 1-3 items)
-- Estimated macronutrients & calories (per item + total)
-- A single Health Score (0-100) with friendly guidance
+**Healthy Eating Helper** is an AI-powered nutrition analysis web application that transforms food photography into actionable health insights. Simply upload a photo of your meal and instantly receive comprehensive nutritional analysis with personalized health scoring.
+
+### Key Features
+
+- 🔍 **Smart Food Detection**: AI-powered recognition of top 1-3 food items in any meal photo
+- 📊 **Detailed Nutrition Analysis**: Complete macronutrient breakdown (carbs, protein, fat) and calorie estimation per item and total meal
+- 🎯 **Health Score Algorithm**: Scientifically-based scoring system (0-100) that considers calories, saturated fat, sugar, fiber, and protein
+- 💡 **Friendly Guidance**: Easy-to-understand recommendations for healthier eating choices
+- 📱 **Responsive Design**: Seamless experience across desktop and mobile devices
+- ⚡ **Real-time Processing**: Fast analysis powered by optimized AI models
 
 ## Tech Stack
 
@@ -146,9 +157,33 @@ This is an educational project demonstrating:
 - Computer vision for food recognition
 - Nutritional analysis algorithms
 - Modern web application architecture
+- Full-stack development with AI integration
 
-**Note**: This provides educational estimates, not medical advice.
+### Development Guidelines
+
+1. **Code Quality**: Follow TypeScript/Python best practices
+2. **Testing**: Add tests for new features
+3. **Documentation**: Update README and inline docs
+4. **Performance**: Optimize for mobile and slow connections
+
+### Getting Involved
+
+- 🐛 **Bug Reports**: Use GitHub Issues
+- 💡 **Feature Requests**: Describe use cases and benefits
+- 🔧 **Pull Requests**: Include tests and documentation
+- 📖 **Documentation**: Help improve setup guides
+
+## Acknowledgments
+
+- **Hugging Face**: For providing pre-trained computer vision models
+- **Supabase**: For managed PostgreSQL and real-time capabilities
+- **Vercel/Next.js**: For excellent developer experience and deployment
+- **Nutrition Data**: USDA FoodData Central and nutrition research
+
+## Disclaimer
+
+**Note**: This application provides educational estimates and should not be used as a substitute for professional medical or nutritional advice. Nutritional values are estimates based on standard databases and may vary from actual values. Always consult with healthcare professionals for personalized dietary guidance.
 
 ## License
 
-MIT
+MIT License - see [LICENSE](LICENSE) for details.
